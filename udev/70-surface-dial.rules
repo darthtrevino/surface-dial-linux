@@ -1,0 +1,1 @@
+ACTION=="add|change", SUBSYSTEM=="input", KERNEL=="event*", ATTRS{name}=="Surface Dial System Multi Axis", TAG+="uaccess"
